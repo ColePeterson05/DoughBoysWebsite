@@ -1,24 +1,43 @@
+/* Background Color for page */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* full screen height */
+    display: flex;
+    align-items: center; /* vertical centering */
+    justify-content: center; /* horizontal centering */
+    background-color: #f8f3e9; /* optional background */
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Banner container */
 .banner {
-    width: 25%;
-    height: 175px;        /* ~1/16 of 80px */
-    overflow: hidden;
+    width: 300px;                 /* full width across top */
+    height: 175px;               /* shorter header */
+    background-color: #f8f3e9;   /* creme white banner */
+    display: flex;
+    flex-direction: column;      /* stack image + text */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0 0 10px 10px; /* rounded bottom edges only */
+    padding: 10px;
 }
 
 /* Banner image */
 .banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;  /* crops/scales perfectly */
-    display: block;
+    max-width: 120%;
+    height: auto;
+   margin-bottom: 5px;
 }
 #table-row {
-    margin: 30px auto;
+    margin: 20px auto;
     max-width: 600px;
     padding: 20px;
-    background: white;
+    background: #f8f3e9;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    /* box shadow for shadowing ignoring for now */
+   /*  box-shadow: 0 2px 8px rgba(0,0,0,0.2); */
     font-family: Arial, Helvetica, sans-serif;
 }
 #table-row tr {
