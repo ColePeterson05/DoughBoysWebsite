@@ -17,4 +17,20 @@ console.log(msg.replace('o','a')); //replacing o with a
 
 console.log(msg.split(" "));
 
-console.log(' ' == '0'); //comparison function
+console.log(''== 0); //comparison function true because it can be converted into number 0
+
+console.log(''=== 0); //false since it is not physically 0
+
+//function declartions
+function sum(a, b) {
+    return a + b;
+}
+console.log(sum(5,10));
+
+//function expression
+const greet2 = function() {
+    console.log("Hello from greet2");
+}
+//arrow function
+const sumArr = (a,b) => a + b;
+console.log(sumArr);
