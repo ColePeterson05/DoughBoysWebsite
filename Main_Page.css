@@ -1,11 +1,21 @@
+/*
+Defining colors used in CSS file
+ */
+:root {
+    --cream: #f8f3e9;
+    --indian-red: #CD5C5C;
+    --olive: #556B2F;
+    --gold: #FFD700;
+    --charcoal: #333333;
+}
 /* Background Color for page */
 body {
     margin: 0;
     padding: 0;
     height: 100vh; /* full screen height */
     display: flex;
+    flex-direction: column; /* stack elements vertically */
     align-items: center; /* vertical centering */
-    justify-content: center; /* horizontal centering */
     background-color: #f8f3e9; /* optional background */
     font-family: 'Montserrat', sans-serif;
 }
@@ -21,7 +31,7 @@ body {
     align-items: center;
     color: white;
     border-radius: 0 0 10px 10px; /* rounded bottom edges only */
-    padding: 10px;
+    padding: 5px;
 }
 
 /* Banner image */
@@ -44,3 +54,37 @@ body {
     margin-bottom: 10px;
     color: indianred;
 }
+nav ul {
+    list-style: none;       /* remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;          /* lay out horizontally */
+    justify-content: center;/* center across the page */
+    gap: 15px;              /* spacing between links */
+}
+
+nav ul li {
+    display: inline;        /* ensure inline layout */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: indianred;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2.5rem;        /* larger size */
+    font-weight: lighter;
+    color: burlywood;         /* matches your nav links */
+    text-align: center;       /* center on the page */
+    margin-top: -3px;         /* space from top */
+    margin-bottom: -2px;      /* space before next content */
+    letter-spacing: 2px;      /* subtle spacing between letters */
+    text-transform: uppercase;
+}
+
