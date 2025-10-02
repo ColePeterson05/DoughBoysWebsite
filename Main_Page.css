@@ -39,6 +39,7 @@ body {
     max-width: 120%;
     height: auto;
    margin-bottom: 5px;
+    filter: grayscale(75%);   /* black & white */
 }
 #table-row {
     margin: 20px auto;
