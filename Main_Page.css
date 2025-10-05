@@ -1,6 +1,6 @@
 /*
 Defining colors used in CSS file
- */
+*/
 :root {
     --cream: #f8f3e9;
     --indian-red: #CD5C5C;
@@ -38,7 +38,7 @@ body {
 .banner img {
     max-width: 120%;
     height: auto;
-   margin-bottom: 5px;
+    margin-bottom: 5px;
     filter: grayscale(75%);   /* black & white */
 }
 #table-row {
@@ -48,7 +48,7 @@ body {
     background: #f8f3e9;
     border-radius: 10px;
     /* box shadow for shadowing ignoring for now */
-   /*  box-shadow: 0 2px 8px rgba(0,0,0,0.2); */
+    /*  box-shadow: 0 2px 8px rgba(0,0,0,0.2); */
     font-family: Arial, Helvetica, sans-serif;
 }
 #table-row tr {
@@ -77,17 +77,26 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+/* Added spacing so nav doesn’t sit on top of titles */
+nav {
+    margin-top: 20px;       /* space below logo/banner */
+    margin-bottom: 25px;    /* space above titles */
+}
+
+/* Adjusted spacing for page titles */
 h1 {
     font-family: 'Comic Sans MS', sans-serif;
     font-size: 2.5rem;        /* larger size */
     font-weight: lighter;
     color: burlywood;         /* matches your nav links */
     text-align: center;       /* center on the page */
-    margin-top: -3px;         /* space from top */
-    margin-bottom: -2px;      /* space before next content */
+    margin-top: 30px;         /* increased top margin */
+    margin-bottom: 10px;      /* slight space before next content */
     letter-spacing: 2px;      /* subtle spacing between letters */
     text-transform: uppercase;
 }
+
 footer {
     background-color: var(--charcoal);
     color: var(--cream);
@@ -108,4 +117,45 @@ footer {
 .footer-container a.social-link:hover {
     color: var(--olive);
     text-decoration: underline;
+}
+
+/* --- Special Item Section --- */
+.special-item {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.special-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.special-item li {
+    display: inline-block;
+}
+
+.special-item a {
+    text-decoration: none;
+    color: var(--indian-red);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.special-item a:hover {
+    color: var(--olive);
+    text-decoration: underline;
+}
+
+/* Make the image bigger and nicely aligned */
+.special-img {
+    width: 240px; /* doubled size */
+    vertical-align: middle;
+    margin-right: 12px;
+    border-radius: 10px; /* smooth rounded corners */
+    transition: transform 0.25s ease-in-out;
+}
+
+.special-img:hover {
+    transform: scale(1.05); /* gentle hover zoom */
 }
