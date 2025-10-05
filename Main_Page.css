@@ -5,7 +5,7 @@ Defining colors used in CSS file
     --cream: #f8f3e9;
     --indian-red: #CD5C5C;
     --olive: #556B2F;
-    --gold: #FFD700;
+    --gold: #a57d11;
     --charcoal: #333333;
 }
 /* Background Color for page */
@@ -88,4 +88,24 @@ h1 {
     letter-spacing: 2px;      /* subtle spacing between letters */
     text-transform: uppercase;
 }
+footer {
+    background-color: var(--charcoal);
+    color: var(--cream);
+    width: 100%;
+    padding: 15px 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    margin-top: auto;
+}
 
+.footer-container a.social-link {
+    color: var(--cream);
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-container a.social-link:hover {
+    color: var(--olive);
+    text-decoration: underline;
+}
