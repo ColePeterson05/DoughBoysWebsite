@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7842b4d3-0911-45ff-b2de-5d00332a8d49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Beer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustPizza.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wings.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wings2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wrap.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/Drinks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_Page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Main_Page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other.html" beforeDir="false" afterPath="$PROJECT_DIR$/Other.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wings.html" beforeDir="false" afterPath="$PROJECT_DIR$/Wings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +42,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/colepeterson/WebstormProjects/DoughBoysWebsite&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/colepeterson/Documents/WebstormProjects/DoughBoysWebsite&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -91,6 +80,8 @@
       <workItem from="1759686773822" duration="37000" />
       <workItem from="1759701589675" duration="3102000" />
       <workItem from="1759709576368" duration="4479000" />
+      <workItem from="1759715825953" duration="3000" />
+      <workItem from="1759715833022" duration="1000" />
     </task>
     <servers />
   </component>
