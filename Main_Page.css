@@ -11,11 +11,11 @@ Defining colors used in CSS file
 /* Background Color for page */
 body {
     margin: 0;
-    padding: 0;
+    padding: 20px; /* optional spacing from the edges */
     height: 100vh; /* full screen height */
     display: flex;
     flex-direction: column; /* stack elements vertically */
-    align-items: center; /* vertical centering */
+    align-items: flex-start; /* align everything to the left */
     background-color: #f8f3e9; /* optional background */
     font-family: 'Montserrat', sans-serif;
 }
@@ -26,9 +26,8 @@ body {
     height: 175px;               /* shorter header */
     background-color: #f8f3e9;   /* creme white banner */
     display: flex;
-    flex-direction: column;      /* stack image + text */
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     color: white;
     border-radius: 0 0 10px 10px; /* rounded bottom edges only */
     padding: 5px;
@@ -158,4 +157,41 @@ footer {
 
 .special-img:hover {
     transform: scale(1.05); /* gentle hover zoom */
+}
+/* Styling for h2 elements */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 15px;
+    text-align: left; /* keep text left-aligned */
+}
+
+/* Styling for the paragraph with id="p1" */
+#p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555555;
+    margin-bottom: 20px;
+    text-align: left; /* keep text left-aligned */
+}
+#des {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555555;
+    margin-bottom: 20px;
+    text-align: center; /* keep text center-aligned */
+}
+
+#p2 {
+    font-family: 'Georgia', serif;
+    font-size: 1.25rem;           /* slightly bigger than normal */
+    font-weight: bold;             /* bold text */
+    color: black;               /* cream color */
+    line-height: 1.8;             /* spacing for readability */
+    margin-bottom: 25px;
+    text-align: left;
 }
