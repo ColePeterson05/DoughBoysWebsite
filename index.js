@@ -34,3 +34,11 @@ const greet2 = function() {
 //arrow function
 const sumArr = (a,b) => a + b;
 console.log(sumArr);
+
+//Learning about event listenrs 
+const heading = document.querySelector('h1');
+
+function changeText(){
+    console.log("Change text");
+}
+heading.addEventListener('click', changeText);
