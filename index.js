@@ -1,3 +1,4 @@
+/*
 console.log("Hello World, from external JS!"); //First line in JS
 
 let age = 20;
@@ -42,4 +43,12 @@ function changeText(){
     console.log("Change text");
 }
 heading.addEventListener('click', changeText);
+*/
+//Temp learning JS ^^
 
+
+const follower = document.getElementById('follower');
+
+document.addEventListener('mousemove', (e) => {
+    follower.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+});
