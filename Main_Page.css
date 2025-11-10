@@ -250,3 +250,17 @@ h2 {
 .nav-item.active {
     background-color: #046a38;
 }
+
+/* Styling for menu images */
+.menu-images {
+    text-align: center;
+    margin-top: 20px;
+}
+.menu-images img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
