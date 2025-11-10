@@ -19,7 +19,7 @@
     </header>
     <div class="carousel">
         <ul class="carousel-list">
-            <li class="carousel-item active"><img src="weeklypizza2.jpeg" alt="test 1"></li>
+            <li class="carousel-item active"><img src="smallweekly.jpeg" alt="test 1"></li>
             <li class="carousel-item"><img src="Special1Small.jpeg" alt="test 2"></li>
             <li class="carousel-item"><img src="weeklypizza2.jpeg" alt="test 3"></li>
             <li class="carousel-item"><img src="Special1Small.jpeg" alt="test 4"></li>
@@ -80,6 +80,45 @@
             We’re here for more than just a paycheck; we’re here to serve our community with pride. We want Dough Boys to be your go-to Waynesville restaurant, where you can kick back, grab a slice, and leave your worries at the door—even if just for a little while.
         </p>
     </div>
+    <!-- NEW: Button to open modal (interactive component #2) -->
+    <div class="deal-cta">
+        <button id="open-deal" class="btn-primary" type="button">See Today's Deal</button>
+    </div>
+
+    <!-- NEW: Accordion (interactive component #3) -->
+    <section class="accordion-section" aria-label="Frequently Asked Questions">
+        <h2>Menu FAQs</h2>
+
+        <div class="accordion-item">
+            <button class="accordion-toggle" aria-expanded="false">
+                Do you offer gluten-free crust?
+                <span class="chev" aria-hidden="true">▸</span>
+            </button>
+            <div class="accordion-panel" hidden>
+                <p>Yes — we offer a gluten-free crust for medium and large pies. Please note cross-contact in our kitchen.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-toggle" aria-expanded="false">
+                Can I customize toppings?
+                <span class="chev" aria-hidden="true">▸</span>
+            </button>
+            <div class="accordion-panel" hidden>
+                <p>Absolutely. Add or remove toppings directly when ordering online or tell us in person — extra charges apply for premium toppings.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-toggle" aria-expanded="false">
+                What's your delivery radius?
+                <span class="chev" aria-hidden="true">▸</span>
+            </button>
+            <div class="accordion-panel" hidden>
+                <p>We currently deliver within a 6-mile radius of our Waynesville location. Pickup is always available.</p>
+            </div>
+        </div>
+    </section>
 
 </section>
 <img id="follower" src="pizzaMouse.png" alt="Follower">
