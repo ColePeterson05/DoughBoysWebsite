@@ -196,11 +196,10 @@ h2 {
     text-align: left;
 }
 
-
+/* Carousel styling */
 .carousel {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 600px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 10px;
@@ -223,7 +222,8 @@ h2 {
 }
 
 .carousel-item img {
-    width: 100%;
+    width: 600px;
+    height: 400px;
     display: block;
     border-radius: 10px;
 }
