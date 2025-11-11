@@ -377,7 +377,7 @@ img#follower {
     box-shadow: 0 4px 10px rgba(0,0,0,0.06);
 }
 
-/* The clickable part */
+/* The clickable part (drop down) */
 .accordion-toggle {
     width: 100%;
     display: flex;
@@ -392,7 +392,7 @@ img#follower {
     font-size: 1rem;
 }
 
-/* small chevron rotate */
+/* small chevron rotate  (AI assisted for best look) */
 .accordion-toggle .chev {
     transform-origin: center;
     transition: transform 220ms ease;
@@ -430,7 +430,7 @@ img#follower {
     transform: translate(-50%, -50%);
 }
 
-/* media queries (small screens) */
+/* media queries*/
 @media (max-width: 640px) {
     .carousel { width: 100%; }
     .carousel-item img { width: 100%; height: auto; }

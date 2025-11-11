@@ -31,7 +31,6 @@ nav.addEventListener('click', function (e) {
 });
 
 // Modal: open/close + accessibility
-// -------------------------------
 (function () {
     const modal = document.getElementById('deal-modal');
     const openBtn = document.getElementById('open-deal');
@@ -74,7 +73,7 @@ nav.addEventListener('click', function (e) {
         });
     });
 
-    // Example action for Order Now (you can hook this to real order flow)
+    // Action for Order Now
     if (orderNow) {
         orderNow.addEventListener('click', () => {
             // temporarily show confirmation then close modal
@@ -89,9 +88,7 @@ nav.addEventListener('click', function (e) {
     }
 })();
 
-// -------------------------------
 // Accordion: toggle panels smoothly + accessibility
-// -------------------------------
 (function () {
     const items = document.querySelectorAll('.accordion-item');
 
