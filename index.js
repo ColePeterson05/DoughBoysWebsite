@@ -1,9 +1,19 @@
 //Mouse image tracker
 const follower = document.getElementById('follower');
+let x = 0, y = 0;
 
 document.addEventListener('mousemove', (e) => {
-    follower.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    x = e.clientX;
+    y = e.clientY;
 });
+
+function animate() {
+    follower.style.left = `${x}px`;
+    follower.style.top = `${y}px`;
+    requestAnimationFrame(animate);
+}
+
+animate();
 
 console.log("JAVASCRIPT IS WORKING HORRAY 🥲");
 'use strict';

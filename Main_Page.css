@@ -8,6 +8,10 @@ Defining colors used in CSS file
     --gold: #a57d11;
     --charcoal: #333333;
 }
+
+header{
+
+}
 /* Background Color for page */
 body {
     margin: 0;
@@ -15,19 +19,19 @@ body {
     height: 100vh; /* full screen height */
     display: flex;
     flex-direction: column; /* stack elements vertically */
-    align-items: flex-start; /* align everything to the left */
+    align-items: center; /* align everything to the center */
     background-color: #f8f3e9; /* optional background */
     font-family: 'Montserrat', sans-serif;
 }
 
 /* Banner container */
 .banner {
-    width: 300px;                 /* full width across top */
+    width: 600px;                 /* full width across top */
     height: 175px;               /* shorter header */
     background-color: #f8f3e9;   /* creme white banner */
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     color: white;
     border-radius: 0 0 10px 10px; /* rounded bottom edges only */
     padding: 5px;
@@ -35,10 +39,19 @@ body {
 
 /* Banner image */
 .banner img {
-    max-width: 120%;
+    max-width: 330px;
     height: auto;
-    margin-bottom: 5px;
+    justify-self: left;
+    margin: 10px;
     filter: grayscale(75%);   /* black & white */
+}
+.banner nav ul {
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.banner nav {
+    margin-top: 20px; /* removes extra spacing */
 }
 #table-row {
     margin: 20px auto;
@@ -57,7 +70,7 @@ body {
 nav ul {
     list-style: none;       /* remove bullets */
     margin: 0;
-    padding: 0;
+    padding: 0 20px 0 10px ;
     display: flex;          /* lay out horizontally */
     justify-content: center;/* center across the page */
     gap: 15px;              /* spacing between links */
@@ -88,7 +101,7 @@ h1 {
     font-family: 'Comic Sans MS', sans-serif;
     font-size: 2.5rem;        /* larger size */
     font-weight: lighter;
-    color: burlywood;         /* matches your nav links */
+    color: burlywood;
     text-align: center;       /* center on the page */
     margin-top: 30px;         /* increased top margin */
     margin-bottom: 10px;      /* slight space before next content */
@@ -99,7 +112,7 @@ h1 {
 footer {
     background-color: var(--charcoal);
     color: var(--cream);
-    width: 100%;
+    width: 100vw;          /* span the full viewport so no gap on either side */
     padding: 15px 10px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -153,6 +166,17 @@ footer {
     margin-right: 12px;
     border-radius: 10px; /* smooth rounded corners */
     transition: transform 0.25s ease-in-out;
+
+}
+
+.homemade-pizza {
+    text-align: center;
+}
+.pizza-special{
+    text-align: center;
+}
+.wings-special{
+    text-align: center;
 }
 
 .special-img:hover {
@@ -165,7 +189,7 @@ h2 {
     font-weight: 600;
     color: #333333;
     margin-bottom: 15px;
-    text-align: left; /* keep text left-aligned */
+    text-align: center; /* keep text left-aligned */
 }
 
 /* Styling for the paragraph with id="p1" */
@@ -193,30 +217,31 @@ h2 {
     color: black;               /* cream color */
     line-height: 1.8;             /* spacing for readability */
     margin-bottom: 25px;
-    text-align: left;
+    text-align: center;
 }
 
 /* Carousel styling */
 .carousel {
     position: relative;
-    width: 600px;
-    margin: 0 auto;
+    width: 800px;
+    margin-left: -50px;
+    border-radius: 22px;
     overflow: hidden;
-    border-radius: 10px;
 }
 
 .carousel-list {
-    display: flex;
+    display: inline-flex;
     transition: transform 0.5s ease;
 }
 .carousel-item {
-    display: flex;
+    display: none;
     transition: transform 0.5s ease;
     cursor: pointer;
     z-index: 0;
 }
 
 .carousel-item.active {
+    display: block;
     min-width: 100%;
     flex-shrink: 0;
 }
@@ -232,6 +257,7 @@ h2 {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    margin-left: -5rem;
     position: relative;
     z-index: 10;
 }
@@ -273,7 +299,9 @@ img#follower {
     z-index: 9999; /* ensures it's on top */
     transform: translate(-50%, -50%);
 }
-
+#follower {
+    transition: left 0.08s linear, top 0.08s linear;
+}
 
 
 

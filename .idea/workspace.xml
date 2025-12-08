@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7842b4d3-0911-45ff-b2de-5d00332a8d49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/Drinks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Main_Page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wings.html" beforeDir="false" afterPath="$PROJECT_DIR$/Wings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +63,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Photos" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -101,6 +110,9 @@
       <workItem from="1763504494324" duration="12000" />
       <workItem from="1763504518472" duration="39000" />
       <workItem from="1765058212626" duration="156000" />
+      <workItem from="1765149244186" duration="1032000" />
+      <workItem from="1765206881982" duration="2487000" />
+      <workItem from="1765233729093" duration="2836000" />
     </task>
     <servers />
   </component>
