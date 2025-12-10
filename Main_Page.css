@@ -8,7 +8,9 @@ Defining colors used in CSS file
     --gold: #a57d11;
     --charcoal: #333333;
 }
-
+ul{
+    align-content: center;
+}
 /* Background Color for page */
 body {
     margin: 0;
@@ -175,7 +177,9 @@ footer {
 .wings-special{
     text-align: center;
 }
-
+.other-special{
+    text-align: center;
+}
 .special-img:hover {
     transform: scale(1.05); /* gentle hover zoom */
 }
